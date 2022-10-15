@@ -56,7 +56,7 @@ export class App extends Component {
               <p>Bad: {this.state.bad}</p>
             </li>
             <li>
-              <p>Total: {() => this.state.total}</p>
+              <p>Total: {this.state.total}</p>
             </li>
             <li>
               <p>Positive feedback: {this.state.posiivePercentage}</p>
