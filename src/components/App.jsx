@@ -6,17 +6,33 @@ export class App extends Component {
     neutral: 0,
     bad: 0,
     total: 0,
-    posiivePercentage: 0,
+    positivePercentage: 0,
   };
 
   onGoodOptionClick = () => {
     this.setState(prevState => ({ good: prevState.good + 1 }));
+    this.onTotalCount();
+    this.onPositivePercentageCount();
   };
   onNeurtralOptionClick = () => {
     this.setState(prevState => ({ neutral: prevState.neutral + 1 }));
+    this.onTotalCount();
+    this.onPositivePercentageCount();
   };
   onBadOptionClick = () => {
     this.setState(prevState => ({ bad: prevState.bad + 1 }));
+    this.onTotalCount();
+    this.onPositivePercentageCount();
+  };
+
+  onTotalCount = () => {
+    this.setState(prevState => ({ total: prevState.total + 1 }));
+  };
+
+  onPositivePercentageCount = () => {
+    this.setState({
+      positivePercentage: (this.state.good / this.state.total) * 100,
+    });
   };
 
   render() {
@@ -59,7 +75,7 @@ export class App extends Component {
               <p>Total: {this.state.total}</p>
             </li>
             <li>
-              <p>Positive feedback: {this.state.posiivePercentage}</p>
+              <p>Positive feedback: {this.state.positivePercentage}%</p>
             </li>
           </ul>
         </section>
