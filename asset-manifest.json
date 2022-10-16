@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css",
-    "main.js": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/js/main.763cd6a0.js",
+    "main.css": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/css/main.8c845a03.css",
+    "main.js": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/js/main.7f7eabab.js",
     "index.html": "/Pylypeichenko/goit-react-hw-02-feedback.git/index.html",
-    "main.7acaea2f.css.map": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css.map",
-    "main.763cd6a0.js.map": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/js/main.763cd6a0.js.map"
+    "main.8c845a03.css.map": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/css/main.8c845a03.css.map",
+    "main.7f7eabab.js.map": "/Pylypeichenko/goit-react-hw-02-feedback.git/static/js/main.7f7eabab.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.763cd6a0.js"
+    "static/css/main.8c845a03.css",
+    "static/js/main.7f7eabab.js"
   ]
 }
